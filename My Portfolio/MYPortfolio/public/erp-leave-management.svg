@@ -1,0 +1,17 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <circle cx="680" cy="80" r="140" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="90" cy="440" r="120" fill="rgba(255,255,255,0.05)"/>
+  <text x="60" y="270" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="white" opacity="0.95">Oracle ERP</text>
+  <text x="60" y="310" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="white" opacity="0.7">CONFIDENTIAL CLIENT PROJECT</text>
+</svg>
